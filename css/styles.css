@@ -4,7 +4,7 @@ colors used
 */
 
 :root {
-  --main-bg-color: #ffebcd;
+  --main-bg-color: #ffffff;
   --primary-color: #357b70;
   --secondary-color: #e0b354;
   --dark-grey: #2b2b2b;
@@ -78,10 +78,6 @@ label:hover {
   cursor: pointer;
 }
 
-standard-label hover {
-  cursor: pointer;
-}
-
 .navigation-list__item--active {
   text-decoration: black;
 }
@@ -138,6 +134,8 @@ standard-label hover {
 
 .page-header_item {
   flex: 0 1 425px;
+  height: auto;
+  width: auto;
 }
 
 .page-header_item:last-child {

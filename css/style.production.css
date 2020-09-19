@@ -11,7 +11,7 @@ colors used
 */
 
 body {
-  background-color: #ffebcd;
+  background-color: #fffaf0;
   font-family: "Grandstander", cursive;
   font-weight: 400;
   font-size: 16px;
@@ -41,8 +41,7 @@ a:visited {
   color: #05676e;
 }
 
-a:hover,
-a:focus {
+a:hover, a:focus {
   text-decoration: none;
 }
 
@@ -50,8 +49,7 @@ a:active {
   color: #9c7f48;
 }
 
-button,
-.button {
+button, .button {
   border: none;
   display: inline-block;
   font-family: inherit;
@@ -69,10 +67,7 @@ button,
   transition-property: opacity;
 }
 
-button:hover,
-button:focus,
-.button:hover,
-.button:focus {
+button:hover, button:focus, .button:hover, .button:focus {
   cursor: pointer;
   opacity: 0.8;
 }
